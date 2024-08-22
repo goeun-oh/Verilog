@@ -5,7 +5,7 @@
    15까지 셀 수 있는 counter 모듈을 설계해 보았음  
    (simulation이 용이하도록 15까지만 셀 수 있도록 함)
 
-   ---
+   
 
    ### Design Overview
 
@@ -23,7 +23,7 @@
 
    기본 상태는 IDLE
     
-   ---
+   
 ### Simulation
    ![Timing Diagram](counter_timing_diagram.png)
     3을 입력해 보았음
