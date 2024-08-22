@@ -24,7 +24,7 @@
    기본 상태는 IDLE
     
    ---
-    ### Simulation
+### Simulation
    ![Timing Diagram](counter_timing_diagram.png)
     3을 입력해 보았음
 
