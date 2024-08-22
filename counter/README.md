@@ -22,12 +22,13 @@
       3. **is_done asserted**: (after 1 cycle) DONE
 
    기본 상태는 IDLE
-
+    
+   ---
     ### Simulation
    ![Timing Diagram](counter_timing_diagram.png)
     3을 입력해 보았음
 
-    ![Timing_Diagram_with 2 input](2input.png)
+   ![Timing_Diagram_with_2_input](2input.png)
     3 입력 후 100ns 뒤에 2를 입력해보았음
     정상적으로 count 하는 것을 확인함
 
