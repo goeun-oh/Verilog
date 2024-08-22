@@ -56,7 +56,7 @@ wire o_done;
 	    r_cnt <=0;
 	end else if (is_done) begin
 	    r_cnt <= 0;
-	end else if (r_cnt < i_num -1 && o_run) begin
+	end else if (o_run) begin
 	    r_cnt <= r_cnt+1;
 	end
     end
