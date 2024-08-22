@@ -7,4 +7,4 @@ single-port RAM 을 control 하는 모듈임
 
 ![bram_signals](inoutput.png)
 
-    single-port RAM의 in/output signals
+single-port RAM의 in/output signals
