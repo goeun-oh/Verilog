@@ -24,6 +24,14 @@ initial begin
     i_run <=0;
 
     #100
+    reset_n<=0;
+    i_run <= 1;
+    i_num <=4'd1;
+    @(posedge clk);
+    #10
+    reset_n <=1;
+    i_run <=0;
+    #100
     $finish;
 
 
