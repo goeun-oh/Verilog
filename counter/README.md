@@ -23,4 +23,4 @@
 
    기본 상태는 IDLE
 
-   ![Timing Diagram](counter/counter_timing_diagram.png)
+   ![Timing Diagram](counter_timing_diagram.png)
