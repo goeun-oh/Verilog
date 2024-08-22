@@ -26,7 +26,7 @@ initial begin
     #100
     reset_n<=0;
     i_run <= 1;
-    i_num <=4'd1;
+    i_num <=4'd2;
     @(posedge clk);
     #10
     reset_n <=1;

@@ -1,0 +1,4 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/goeun/VerilogSpace/counter/counter_100.v" into library work
+INFO: [VRFC 10-311] analyzing module counter_100
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/goeun/VerilogSpace/counter/tb_counter_100.v" into library work
+INFO: [VRFC 10-311] analyzing module tb_counter_100
