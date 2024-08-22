@@ -1,0 +1,5 @@
+xvlog  ./counter_100.v ./tb_counter_100.v
+
+xelab tb_counter_100 -debug wave -s tb_counter_100
+
+xsim tb_counter_100 -gui -wdb simulate_xsim_tb_counter_100.wdb
