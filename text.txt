@@ -1,4 +1,4 @@
-1. counter 모듈 설계
+1. counter 모듈 설계 - 8/22
 2. bram control logic 설계
 3. 시계 설계
 
