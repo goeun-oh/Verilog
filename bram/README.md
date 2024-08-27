@@ -36,18 +36,19 @@ single-port RAM의 in/output signals
 
 ### Simulation
 ![Timing_Diagram](bram_ctrl_timing_diagram.png)
-    - i_num_cnt = 2.
-    - o_write가 1이 되고(we0이 1이되고) 1 cycle 뒤에 mem에 data가 저장된다.
-    
-    ``` Verilog
-    //spbram 모듈 내부에서의 FF 때문임
-    always @(posedge clk) begin
-	if(ce0) begin
-	    if(we0) ram[addr0] <= d0;
-	    else q0 <= ram[addr0];
-	end
-    end
-    ```
 
-    - o_read도 마찬가지이다.
+- i_num_cnt = 2.
+- o_write가 1이 되고(we0이 1이되고) 1 cycle 뒤에 mem에 data가 저장된다.
+    
+``` Verilog
+//spbram 모듈 내부에서의 FF 때문임
+always @(posedge clk) begin
+    if(ce0) begin
+	if(we0) ram[addr0] <= d0;
+	else q0 <= ram[addr0];
+    end
+end
+```
+
+- o_read도 마찬가지이다.
 
