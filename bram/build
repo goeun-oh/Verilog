@@ -1,0 +1,3 @@
+xvlog ./bram_ctrl.v ./tb_bram_ctrl.v ./spbram.v
+xelab tb_bram_ctrl -debug wave -s tb_bram_ctrl
+xsim tb_bram_ctrl -gui -wdb simulate_xism_tb_bram_ctrl.wdb
