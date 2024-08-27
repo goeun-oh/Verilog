@@ -1,6 +1,0 @@
-INFO: [VRFC 10-2263] Analyzing Verilog file "/home/goeun/VerilogSpace/bram/bram_ctrl.v" into library work
-INFO: [VRFC 10-311] analyzing module bram_ctrl
-INFO: [VRFC 10-2263] Analyzing Verilog file "/home/goeun/VerilogSpace/bram/tb_bram_ctrl.v" into library work
-INFO: [VRFC 10-311] analyzing module tb_bram_ctrl
-INFO: [VRFC 10-2263] Analyzing Verilog file "/home/goeun/VerilogSpace/bram/spbram.v" into library work
-INFO: [VRFC 10-311] analyzing module spbram
